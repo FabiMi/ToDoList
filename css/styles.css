@@ -1,0 +1,80 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+body {
+color: white;
+font: normal normal 13px/16px "Open Sans", sans-serif;
+background: #dfdfdf;
+}
+
+.container{
+padding: none;
+width: 300px;
+background: rgb(41, 40, 40);
+border-radius: 40px;
+z-index: 1;
+position:absolute;
+padding-top: 80px;
+margin-top: 80px;
+margin-left: 32%;
+}
+
+.iphonecontainer{
+display: grid;
+justify-items: center;
+
+}
+#iphone{
+
+	background-color: rgb(41, 40, 40);
+	border-radius: 80px;
+	margin:5px;
+	z-index: -1;
+	margin-left: 30%;
+}
+
+form {
+display: inline-block;
+}
+
+input{
+padding: 4px 15px 4px 5px;
+}
+
+#button{
+display: inline-block;
+background-color:#fc999b;
+color:#ffffff;
+border-radius: 5px;
+text-align:center;
+margin-top:2px;
+padding: 5px 15px;
+}
+
+#button:hover{
+cursor: pointer;
+opacity: .8;}
+
+ol {padding-left: 20px;}
+
+ol li {padding: 5px;color:rgb(204, 194, 194)}
+
+ol li:nth-child(even){background: #6e6b6b; color:rgb(41, 40, 40)}
+
+.strike{text-decoration: line-through;}
+
+li:hover{
+  cursor: pointer;
+ }
+
+.delete {
+	display: none;
+}
+
+li > crossOutButton {
+	background: none;
+	border: none;
+	float: right;
+	color: white;
+	font-weight: 800;
+}
